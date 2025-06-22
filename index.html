@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Jornada do Algoritmo Mágico</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="video-background">
+      <video autoplay muted loop id="bg-video">
+        <source src="/images/background.mp4" type="video/mp4" />
+        <!-- Fallback image if video doesn't load -->
+        <img src="fallback-bg.jpg" alt="Background fallback" />
+      </video>
+    </div>
+
+    <div class="container">
+      <h1>A Jornada do Algoritmo Mágico 🧙‍♂️</h1>
+      <p class="description">
+        Encontre os números que permanecem na mesma posição nas ordenações crescente e decrescente.
+      </p>
+
+      <div class="input-group">
+        <label for="numbers">Insira os números mágicos (separados por vírgula):</label>
+        <input type="text" id="numbers" placeholder="Ex: 3,1,4,1,5,9,2,6,5,3" />
+      </div>
+
+      <div class="button-group">
+        <button id="discover">DESCOBRIR</button>
+        <button id="return">RETORNAR</button>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div class="result-container">
+        <h2>Resultado:</h2>
+        <div id="result"></div>
+        <div id="calculation"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
