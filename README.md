@@ -24,13 +24,7 @@ JavaScript puro
 🚀 Como Executar
 Clone o repositório:
 
-bash
-git clone https://github.com/seu-usuario/jornada-algoritmo-magico.git
-Acesse a pasta do projeto:
 
-bash
-cd jornada-algoritmo-magico
-Abra o arquivo index.html no seu navegador preferido.
 
 🎯 Como Usar
 Insira números separados por vírgula no campo de entrada
